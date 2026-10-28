@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_16sdp"
+    android:layout_marginVertical="@dimen/_8sdp"
+    app:cardCornerRadius="@dimen/_12sdp"
+    app:cardElevation="@dimen/_2sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_12sdp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/historyImage"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.SmallComponent"
+            android:src="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/historyPlantName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Name"
+                android:textColor="@color/primary"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/historyDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date: 2023-10-27"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/historyResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Result summary..."
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/_12ssp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnShareHistory"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_share"
+            app:tint="@color/primary" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

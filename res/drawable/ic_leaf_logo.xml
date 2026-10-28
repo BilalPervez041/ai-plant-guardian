@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Glow -->
+    <path
+        android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0"
+        android:fillAlpha="0.1">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="100"
+                android:centerY="100"
+                android:gradientRadius="80"
+                android:type="radial">
+                <item android:color="#74C69D" android:offset="0" />
+                <item android:color="#00FFFFFF" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Modern Leaf Shape (Left Half) -->
+    <path
+        android:pathData="M100,40C100,40 60,60 60,110C60,140 100,160 100,160"
+        android:strokeWidth="2"
+        android:strokeColor="#2D6A4F"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="60"
+                android:startY="100"
+                android:endX="100"
+                android:endY="100"
+                android:type="linear">
+                <item android:color="#40916C" android:offset="0" />
+                <item android:color="#1B4332" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Modern Leaf Shape (Right Half) -->
+    <path
+        android:pathData="M100,40C100,40 140,60 140,110C140,140 100,160 100,160"
+        android:strokeWidth="2"
+        android:strokeColor="#2D6A4F"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="100"
+                android:startY="100"
+                android:endX="140"
+                android:endY="100"
+                android:type="linear">
+                <item android:color="#1B4332" android:offset="0" />
+                <item android:color="#2D6A4F" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Tech/Scan Lines Inside Leaf -->
+    <path
+        android:pathData="M100,60L100,140"
+        android:strokeWidth="1.5"
+        android:strokeColor="#74C69D"
+        android:strokeAlpha="0.5"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M80,90L120,90"
+        android:strokeWidth="0.8"
+        android:strokeColor="#74C69D"
+        android:strokeAlpha="0.3" />
+    <path
+        android:pathData="M85,110L115,110"
+        android:strokeWidth="0.8"
+        android:strokeColor="#74C69D"
+        android:strokeAlpha="0.3" />
+    <path
+        android:pathData="M90,130L110,130"
+        android:strokeWidth="0.8"
+        android:strokeColor="#74C69D"
+        android:strokeAlpha="0.3" />
+
+    <!-- Outer Scanning Bracket (Top Left) -->
+    <path
+        android:pathData="M50,70L50,50L70,50"
+        android:strokeWidth="4"
+        android:strokeColor="#1B4332"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Outer Scanning Bracket (Bottom Right) -->
+    <path
+        android:pathData="M130,130L150,130L150,150"
+        android:strokeWidth="4"
+        android:strokeColor="#1B4332"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

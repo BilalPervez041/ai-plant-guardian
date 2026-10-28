@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Scanning Brackets -->
+    <path
+        android:pathData="M30,30 L20,30 L20,20 L30,20"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M78,30 L88,30 L88,20 L78,20"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M30,78 L20,78 L20,88 L30,88"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M78,78 L88,78 L88,88 L78,88"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Central Flower/Leaf (Stylized) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54c0,0 -15,-5 -15,-15s10,-5 15,0c5,-5 15,0 15,5s-15,15 -15,15z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54c0,0 5,-15 15,-15s5,10 0,15c5,5 0,15 -5,15s-15,-15 -15,-15z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54c0,0 15,5 15,15s-10,5 -15,0c-5,5 -15,0 -15,-5s15,-15 15,-15z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54c0,0 -5,15 -15,15s-5,-10 0,-15c-5,-5 0,-15 5,-15s15,15 15,15z" />
+
+    <!-- Scanning Line Effect -->
+    <path
+        android:pathData="M25,54 L83,54"
+        android:strokeWidth="1"
+        android:strokeColor="#80FFFFFF"
+        android:strokeLineCap="round" />
+
+</vector>

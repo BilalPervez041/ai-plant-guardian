@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Professional Light Bio-Tech Palette -->
+    <color name="primary">#52B788</color> <!-- Lighter, fresher green -->
+    <color name="primary_dark">#40916C</color>
+    <color name="primary_light">#74C69D</color>
+
+    <color name="accent">#95D5B2</color> <!-- Very Soft Mint -->
+    <color name="accent_glow">#B7E4C7</color>
+    <color name="accent_soft">#D8F3DC</color>
+    <color name="accent_bright">#B7E4C7</color>
+
+    <!-- Professional Light Neutrals -->
+    <color name="bg_main">#F9FBFA</color>
+    <color name="background">#F9FBFA</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider_light">#EDF2F0</color>
+
+    <!-- Dashboard/UI Elements -->
+    <color name="dashboard_item_3">#74C69D</color>
+    <color name="dashboard_item_4">#95D5B2</color>
+
+    <!-- Professional Text -->
+    <color name="text_title">#2D6A4F</color>
+    <color name="primary_text">#2D6A4F</color>
+    <color name="text_body">#40916C</color>
+    <color name="secondary_text">#52796F</color>
+    <color name="text_muted">#74C69D</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Functional -->
+    <color name="error">#E63946</color>
+    <color name="success">#2D6A4F</color>
+    <color name="warning">#FFB703</color>
+
+    <!-- Gradients -->
+    <color name="grad_start">#1B4332</color>
+    <color name="grad_end">#40916C</color>
+
+    <!-- Basics -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay_dark">#99000000</color>
+</resources>

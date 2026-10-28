@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Premium Biotech & Agriculture Palette -->
+    <color name="primary">#1B4332</color> <!-- Deep Emerald -->
+    <color name="primary_light">#40916C</color> <!-- Sage -->
+    <color name="accent">#74C69D</color> <!-- Mint -->
+    <color name="accent_soft">#B7E4C7</color> <!-- Pale Mint -->
+
+    <!-- Backgrounds -->
+    <color name="bg_main">#F7FBF9</color> <!-- Clean White-Green -->
+    <color name="surface_card">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_title">#081C15</color>
+    <color name="text_body">#2D6A4F</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Functional -->
+    <color name="error_red">#D62828</color>
+    <color name="success_green">#2D6A4F</color>
+    <color name="glass_green">#1A2D6A4F</color>
+
+    <!-- Basics -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
